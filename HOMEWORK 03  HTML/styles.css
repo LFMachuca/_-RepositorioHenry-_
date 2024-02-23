@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    }
+
+html{
+      scroll-behavior: smooth;
+    }
+
+body{
+  background-color: #12122b;
+  color: #fff;
+}
+header{
+  background-color: #383845;
+  padding: 20px;
+}
+header .content h1{
+  font-size: 20px;
+}
+header .content h1 span{
+  color: #aaaa91;
+}
+header .content {
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .content nav a{
+  text-decoration: none;
+  color: #fff;
+  margin-left: 15px;
+}
+header .content nav a:hover{
+  color: #12122b;
+}
+/* SECCION INICIO */
+section{
+  max-width: 900px;
+  margin: auto;
+  height: 90vh;
+  position: relative;
+  padding: 0 30px;
+}
+#inicio{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#inicio h2{
+  font-weight: normal;
+  letter-spacing:4px;
+  font-size: 35px;
+}
+#inicio p{
+  width: 300px;
+  font-size: 13px;
+  line-height: 24px;
+  color: #aaaa91;
+  margin-bottom: 20px;
+}
+.btn{
+  background-color: #5e5e5e;
+  color: #fff;
+  border: none;
+  padding: 10px 30px;
+  width: fit-content;
+  cursor: pointer;
+}
+/* SECCION SKILLS */
+#skills{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.title{
+  color:#aaaa91;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+#skills hr{
+  width: 50px;
+  border: 2px solid #848478;
+  margin-bottom: 10px;
+}
+#skills .row{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+#skills .row .col{
+  width: 30%;
+  background-color: #383845;
+  padding: 25px;
+}
+#skills .row .col i{
+  color: #aaaa91;
+  font-size: 20px;
+  margin-bottom: 10px;
+
+}
+#skills .row .col h3{
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+#skills .row .col p{
+  font-size: 12px;
+  line-height: 20px;
+}
+/* SECCION CONTACTO */
+#contacto{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#contacto form{
+  max-width: 500px;
+}
+#contacto form .entry{
+  width: 100%;
+  border: none;
+  background-color: #aaaa91;
+  padding: 25px;
+  margin-bottom: 20px;
+  outline: none;
+  font-size: 18px;
+  color: #fff;
+}
+footer{
+  background-color: #383845;
+  text-align: center;
+  padding: 20px;
+}

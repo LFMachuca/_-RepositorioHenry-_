@@ -4,44 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Primer Sitio Web</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    <!-- HEADER -->
     <header>
-        <a href="">Acerca de mi</a>
-        <a href="">Trabajos</a>
-        <a href="">Conntacto</a>
+        <div class="content">
+            <h1>Leon <span>Machuca</span></h1>
+            <nav class="nav-bar">
+                <a href="#inicio">Inicio</a>
+                <a href="#skills">Skills</a>
+                <a href="#contacto">Contact Me</a>
+            </nav>
+        </div>
     </header>
-    <hr>
-    <main>
-        <h1>Leon Machuca</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-         Dolore optio natus cum maxime in consequuntur quos animi, illum suscipit odio quas delectus iste rerum tenetur dicta molestias qui aperiam voluptatibus!</p>
-         <hr>
-         <section>
-            <h2>Trabajos</h2>
-            <hr>
-            <article>
-                <h3>Trabajo 1</h3>
-            </article>
-            <hr>
-            <article>
-                <h3>Trabajo 2</h3>
-            </article>
-            <hr>
-            <article>
-                <h3>Trabajo 3</h3>
-            </article>
-         </section>
-         <hr>
-         <section>
-            <h2>Contacto</h2>
-         </section>
-    </main>
-    <hr>
+    <!-- SECCION INICIO -->
+    <section id="inicio">
+        <h2>Hola, mi nombre es Leon Machuca. Soy<br> un Front Web Developer</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Eaque illo repellat aut dicta dolor magnam atque excepturi.</p>
+        <button class="btn">Descargar CV</button>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section id="skills">
+        <h3 class="title">Skills</h3>
+        <hr>
+        <div class="row">
+            <div class="col">
+                <i class="fa-brands fa-github"></i>
+                <h3>Control dde Version Git</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Vero distinctio reiciendis consectetur magni iusto quia veritatis beatae excepturi recusandae odio nihil.</p>
+            </div>
+            <div class="col">
+                <i class="fa-solid fa-database"></i>
+                <h3>Base de Datos</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Vero distinctio reiciendis consectetur magni iusto quia veritatis beatae excepturi recusandae odio nihil.</p>
+            </div>
+            <div class="col">
+                <i class="fa-solid fa-object-group"></i>
+                <h3>Desarollo de App</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Vero distinctio reiciendis consectetur magni iusto quia veritatis beatae excepturi recusandae odio nihil.</p>
+            </div>
+
+        </div>
+            <div class="row">
+                <div class="col">
+                    <i class="fa-brands fa-github"></i>
+                    <h3>Control dde Version Git</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Vero distinctio reiciendis consectetur magni iusto quia veritatis beatae excepturi recusandae odio nihil.</p>
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-database"></i>
+                    <h3>Base de Datos</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Vero distinctio reiciendis consectetur magni iusto quia veritatis beatae excepturi recusandae odio nihil.</p>
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-object-group"></i>
+                    <h3>Desarollo de App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Vero distinctio reiciendis consectetur magni iusto quia veritatis beatae excepturi recusandae odio nihil.</p>
+                </div>
+            </div>
+            
+       
+    </section>
+    <!-- SECCION CONTACTO -->
+    <section id="contacto">
+        <h3 class="title">Contact Me</h3>
+        <form action="">
+            <input type="text" placeholder="Email" class="entry">
+            <input type="text" placeholder="Mensaje" class="entry">
+            <input type="submit" value="Enviar" class="btn">
+        </form>
+    </section>
     <footer>
-        <p>Leon Machuca</p>
-        <a href="">Instagram</a>
-        <a href="">Linkedin</a>
+        <p>Leon Machuca 2024</p>
     </footer>
+
 </body>
 </html>
